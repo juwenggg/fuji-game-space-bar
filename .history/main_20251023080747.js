@@ -141,7 +141,7 @@ window.onload = function () {
       // Spacebar keyboard input
       game.input.onDown.add(() => {
         if (!gameOver && bird && bird.body) {
-          bird.body.velocity.y = -birdFlapPower * 1.6; // Increase flap power
+          bird.body.velocity.y = -birdFlapPower * 1.75; // Increase flap power
         }
       }, this);
 
